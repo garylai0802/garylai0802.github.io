@@ -6,24 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script src="https://unpkg.com/vue@3"></script>
-  <link rel="stylesheet"
-  href="vueproject.css">
+  <link rel="stylesheet" href="vueproject.css">
 </head>
 <body>
+  <nav>
+    <a href="index.html">主畫面</a>
+
+    <a href="001.html">關於我</a>
+    <a href="002.html">學經歷</a>
+    <a href="003.html">React專案</a>
+    <a href="vueproject.html">Vue專案</a>
+</nav>
+  <div id="wrap">
       <div id="item">
         <div class="h1">專案目的</div>
-        <div>希望能自動換算外幣價格</div> 
+        <div class="h2">希望能自動換算外幣價格</div> 
       </div>
-      <div>
+
+      <div id="item">
         1234567
       </div>
 
       <div id="item">
+        <div id="app" >
         {{message}}
+        </div>
       </div>
-    
+    </div>
   <script >
-    
     Vue.createApp({
       data:function(){
         return {
