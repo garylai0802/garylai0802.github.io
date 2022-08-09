@@ -23,7 +23,8 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>MovieLand</h1>
+      <h1>賴銘冠作品集</h1>
+      <h2>可於底下搜尋電影</h2>
 
       <div className="search">
         <input
